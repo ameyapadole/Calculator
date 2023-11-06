@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('./DALL·E\ Calculator\ Illustration.png'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    width: 400px;
+    background-color: black;
+    color: white;
+    align-content: center;
+    
+}
+
+.screen{
+    color: white;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    padding: 20px 5px;
+}
+
+.calculator-button{
+    background-color: #d8d9db;
+    color: black;
+    height: 100px; 
+    width: 25%;
+    border: none;
+    border-radius: 0;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.calculator-button:hover{
+    background-color: #ebebeb;
+
+}
+
+.calculator-button:active{
+    background-color: #bbbcbe;
+}
+
+.double{
+    width: 50%;
+}
+
+.triple{
+    width: 75%;
+}
+
+.calculator-button:last-child{
+    background-color: #df974c;
+    color: white;
+}
+
+.calculator-button:last-child:hover{
+    background-color: #dfb07e;
+}
+.calculator-button:last-child:active{
+    background-color: #dd8d37;
+}
+
+.calculator-button-row{
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom:0.5%;
+}
+
+.calculator-button-row:last-child{
+    padding-bottom: 0;
+}
